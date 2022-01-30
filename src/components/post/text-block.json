@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_post_text_blocks",
+  "info": {
+    "displayName": "Text Block",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "textBlock": {
+      "type": "richtext"
+    }
+  }
+}

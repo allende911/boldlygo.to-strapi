@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_post_media",
+  "info": {
+    "displayName": "Media",
+    "icon": "vote-yea",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "postImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "mediaSize": {
+      "type": "enumeration",
+      "enum": [
+        "thumbnail",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small"
+    }
+  }
+}

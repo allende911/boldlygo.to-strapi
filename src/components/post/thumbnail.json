@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_post_thumbnails",
+  "info": {
+    "displayName": "Thumbnail",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

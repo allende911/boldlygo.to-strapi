@@ -12,28 +12,41 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "blogTitle": {
+    "Title": {
       "type": "string"
     },
-    "blogEntry": {
-      "type": "richtext"
-    },
-    "blogDate": {
+    "Date": {
       "type": "date"
     },
-    "blogCardImage": {
-      "type": "string"
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
     },
-    "blogAuthor": {
+    "blogPost": {
+      "type": "dynamiczone",
+      "components": [
+        "post.text-block",
+        "post.media",
+        "post.quote"
+      ]
+    },
+    "Author": {
       "type": "enumeration",
       "enum": [
         "Casi",
         "Danny"
-      ]
+      ],
+      "default": "Casi",
+      "required": true
     },
-    "blogSlug": {
-      "type": "uid",
-      "targetField": "blogTitle"
+    "Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

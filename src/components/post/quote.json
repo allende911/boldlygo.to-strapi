@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_post_quotes",
+  "info": {
+    "displayName": "Quote",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "quoteText": {
+      "type": "text"
+    },
+    "quoteAuthor": {
+      "type": "string"
+    }
+  }
+}
