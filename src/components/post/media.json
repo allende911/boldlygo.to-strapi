@@ -7,25 +7,14 @@
   },
   "options": {},
   "attributes": {
-    "postImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+    "postMedia": {
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ]
-    },
-    "mediaSize": {
-      "type": "enumeration",
-      "enum": [
-        "thumbnail",
-        "small",
-        "medium",
-        "large"
       ],
-      "default": "small"
+      "type": "media",
+      "multiple": true
     }
   }
 }
